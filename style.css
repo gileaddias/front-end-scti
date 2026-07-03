@@ -1,0 +1,21 @@
+* {/*Seletor Universal - será aplicada a regra em todaa página*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {/*Seletor de TAG - todas as tags iguais serão aplicadas as mesmas regras*/
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: lime;
+}
+
+#paragrafo1 {/*Seletor por ID - todo código com o mesmo ID ou especifico terá a mesma regra aplicada*/
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.negrito {/*Seletor por Classes - Aplica as mesmas regras a varias classe iguais*/
+    font-weight: bold;
+}

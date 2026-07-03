@@ -8,6 +8,7 @@
 <body> <!--Corpo da página do site-->
     <header> <!--Cabeçalho da pagina do site-->
         <h1>Desenvolvimento de Software - Fron-end</h1><!--Titulo daPágina-->
+        <h6>Da ideia ao digital, HTML é o inicial!</h6>
 
         <nav> <!--Menu de navegação do site-->
             <ul><!--Lista não ordenada para links do menu-->
@@ -70,10 +71,46 @@
 
             <p>Tem um projeto em mente? Entre em contato!</p>
 
-            <address>
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone" required><br>
+
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto" required>
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <br>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5"></textarea>
+                
+                <br>
+
+                <input type="checkbox" id="inscricao"name="inscricao">
+                <label for="inscricao">Deseja receber minha newslatter? Fique por dentro!</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+
+            </form>
+
+
+        <!-- <address>
                 E-mail: <a href="mailto:gfarias.gpf@gmail.com">gfarias.gpf@gmail.com</a><br>
                 Telefone: <a href="tel:+55619999-2222">+55619999-2222</a>
-            </address>
+            </address> -->
+
         </section>
     </footer>
 </body>

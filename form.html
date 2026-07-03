@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+        
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#formulario">Formulário</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <br>
+        <form action="formulario">
+            <h2>Preencha os campos abaixo!</h2>
+            <br>
+            <label for="nome">Nome Completo: </label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="date">Idade: </label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="materia">Para qual matéria está se candidatando? </label>
+            <select name="materia" id="materia"required>
+                <option value="matematica">Matemática</option>
+                <option value="portugues">Português</option>
+                <option value="biologia">Biologia</option>
+                <option value="ciencias">Ciências</option>
+                <option value="historia">História</option>
+                <option value="geografia">Geográfia</option>
+                <option value="artes">Artes</option>
+            </select>
+
+            <br><br>
+
+            <label for="escolaridade">Qual o seu nivel de escolaridade? </label>
+            <select name="escolaridade" id="escolaridade"required>
+                <option value="superiorCompleto">Superior Completo</option>
+                <option value="cursandoMestrado">Cursando Mestrado</option>
+                <option value="mestradoCompleto">Mestrado Completo</option>
+                <option value="cursandoDoutorado">Cursando Doutorado</option>
+                <option value="doutoradoCompleto">Doutorado Completo</option>
+                <option value="superiorIncompleto">Superior Incompleto</option>
+                <option value="ensinoMedio">Ensino Médio</option>
+            </select>
+        </form>
+    </section>
+</body>
+</html>

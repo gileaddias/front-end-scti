@@ -20,18 +20,44 @@ h6 {
     text-decoration: overline;
 }
 
-nav {
-    border-top: 22px;
+.menu {
+    border-radius: 22px;
     background-color: greenyellow;
     border-color: red;
     justify-content: center;
     align-items: center;
 }
-ul {
-    background-color: aquamarine;
-    border: 20px;
-    border-color: green;
-    display: inline;
-    align-items: center;
-    justify-content: center;
+.lista {
+    margin: 12px;
+    padding-right: 20px;
+    justify-items: flex-end;
+    background-color: black;
+    color: brown;
+}
+
+.sobre {
+    color: blue;
+    border: 5px solid brown;
+    background-color: aqua;
+}
+
+.sobre1 {
+    border: 12px solid gray;
+    justify-content: flex-end;
+    align-items: first baseline;
+    justify-items: center;
+}
+
+.foto {
+    border: 12px solid rebeccapurple;
+    width: 145px;
+    height: 145px;
+}
+
+.apresentacao {
+    border: 3px solid red;
+}
+
+.aside{
+    border: 8px solid blue;
 }

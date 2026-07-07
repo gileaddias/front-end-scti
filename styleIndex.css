@@ -1,0 +1,37 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flexbox;
+}
+
+h1 {
+    text-shadow: 2px;
+    font-size: 36px;
+    color: rgb(8, 155, 240);
+    text-align: center;
+    text-decoration: underline;
+}
+
+h6 {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px;
+    text-decoration: overline;
+}
+
+nav {
+    border-top: 22px;
+    background-color: greenyellow;
+    border-color: red;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    background-color: aquamarine;
+    border: 20px;
+    border-color: green;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}

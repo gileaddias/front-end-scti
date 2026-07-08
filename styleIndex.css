@@ -1,17 +1,20 @@
 * {
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flexbox;
 }
 
 h1 {
+    border: 10px solid rgb(255, 154, 154);
     text-shadow: 2px;
     font-size: 36px;
     color: rgb(8, 155, 240);
     text-align: center;
-    text-decoration: underline;
+    text-decoration-style: dotted;
 }
 
 h6 {
+    border: 12px solid rgb(37, 22, 22);
     color: red;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
@@ -21,27 +24,43 @@ h6 {
 }
 
 .menu {
-    border-radius: 22px;
+    border: 12px solid rgb(0, 0, 0);
     background-color: greenyellow;
-    border-color: red;
     justify-content: center;
     align-items: center;
 }
-.lista {
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+.lista li {
+    border:5px solid rgb(253, 249, 3);
     margin: 12px;
     padding-right: 20px;
-    justify-items: flex-end;
-    background-color: black;
+    justify-items: center;
+    background-color: rgb(248, 245, 245);
     color: brown;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: block;
+
 }
 
 .sobre {
     color: blue;
     border: 5px solid brown;
     background-color: aqua;
+    display: flex;
+    justify-content: center;
 }
 
 .sobre1 {
+    display: flex;
     border: 12px solid gray;
     justify-content: flex-end;
     align-items: first baseline;

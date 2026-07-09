@@ -113,3 +113,45 @@ ul {
 
 
 /* SECTION - Estilos da Seção Sobre*/
+.projeto {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid rgb(221, 221, 98);
+    column-count: 2;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid goldenrod;
+    column-count: 2;
+}
+
+.portfolio{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid burlywood;
+    column-count: 2;
+}
+
+.portfolio h3 {
+    border: 3px solid blue;
+    color: blueviolet;
+    text-transform: uppercase;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 8px;
+}
+
+.portfolio p {
+    border: 3px solid green;
+    color: red;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 8px;
+}

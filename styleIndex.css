@@ -1,9 +1,21 @@
-* {
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, etc. {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
     
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+*{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flexbox;
 }
 
+
+/* HEADER - Stilos do Cabeçalho */
 h1 {
     border: 10px solid rgb(255, 154, 154);
     text-shadow: 2px;
@@ -51,7 +63,16 @@ ul {
 
 }
 
-.sobre {
+
+/* SECTION - Estilos da Seção Sobre*/
+.sobre1 {
+    display: block;
+    border: 12px solid gray;
+    justify-content: flex-end;     
+}
+
+.sobre2 {
+    text-transform: uppercase;
     color: blue;
     border: 5px solid brown;
     background-color: aqua;
@@ -59,24 +80,36 @@ ul {
     justify-content: center;
 }
 
-.sobre1 {
-    display: flex;
-    border: 12px solid gray;
-    justify-content: flex-end;
-    align-items: first baseline;
-    justify-items: center;
+.caixafoto {    
+    justify-self: center;
 }
 
 .foto {
+    align-items: center;
     border: 12px solid rebeccapurple;
+    border-radius: 50%;
     width: 145px;
     height: 145px;
 }
 
 .apresentacao {
     border: 3px solid red;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
 }
 
-.aside{
-    border: 8px solid blue;
+.aside {
+    display: block;
+    border: 8px solid blue;    
+    justify-self: first center;
 }
+
+.habil {
+    border: 6px solid orange;
+    color: red;
+    display: block;
+}
+
+
+/* SECTION - Estilos da Seção Sobre*/

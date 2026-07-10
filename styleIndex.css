@@ -155,3 +155,49 @@ ul {
     padding-right: 8px;
     margin: 8px;
 }
+
+
+/* SECTION - Estilos da Seção Habilidade*/
+.habilidade {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid red;
+    padding: 5px;
+    margin: 5px;
+}
+
+.habi2 {justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    text-transform: uppercase;
+}
+
+.tabela {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    border: 2px solid green;
+}
+
+.cabeca {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    margin: 8px;
+    padding: 8px;
+}
+
+
+th, td {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 18px;
+    padding: 8px;
+}
+

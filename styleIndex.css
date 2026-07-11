@@ -17,27 +17,31 @@ a, abbr, etc. {
 
 /* HEADER - Stilos do Cabeçalho */
 h1 {
-    border: 10px solid rgb(255, 154, 154);
+    border: 10px rgb(255, 154, 154);
     text-shadow: 2px;
-    font-size: 36px;
-    color: rgb(8, 155, 240);
+    font-size: 46px;
     text-align: center;
+    text-shadow: 2px 2px 8px rgb(37, 178, 243);
+    text-transform: uppercase;
     text-decoration-style: dotted;
 }
 
 h6 {
-    border: 12px solid rgb(37, 22, 22);
-    color: red;
+    border: 12px rgb(37, 22, 22);
+    color: rgb(37, 178, 243);
+    -webkit-text-stroke: 2px black;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 36px;
     text-align: center;
-    text-shadow: 2px;
-    text-decoration: overline;
+    text-shadow: 20px;
+    text-decoration: none;
 }
 
 .menu {
-    border: 12px solid rgb(0, 0, 0);
-    background-color: greenyellow;
+    height: 80px;
+    padding-top: 17px;
+    border: 12px rgb(0, 0, 0);
+    background-color: aliceblue;
     justify-content: center;
     align-items: center;
 }
@@ -45,114 +49,138 @@ h6 {
 ul {
     display: flex;
     justify-content: center;
+    list-style: none;
 }
 
-.lista li {
-    border:5px solid rgb(253, 249, 3);
+.lista li a{
+    border:5px rgb(253, 249, 3);
     margin: 12px;
     padding-right: 20px;
     justify-items: center;
-    background-color: rgb(248, 245, 245);
-    color: brown;
     justify-content: center;
     align-items: center;
     text-align: center;
-    text-transform: uppercase;
-    list-style-type: none;
+    text-transform: uppercase;    
     display: block;
+}
 
+.lista li a:link,
+.lista li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.lista li a:hover {
+    color: #ff0000; /* Cor ao passar o mouse (opcional) */
+}
+
+.lista li a:active {
+    color: white;
 }
 
 
 /* SECTION - Estilos da Seção Sobre*/
 .sobre1 {
     display: block;
-    border: 12px solid gray;
+
+    border: 12px gray;
     justify-content: flex-end;     
 }
 
 .sobre2 {
     text-transform: uppercase;
-    color: blue;
-    border: 5px solid brown;
-    background-color: aqua;
+    color: black;
+    border: 5px  brown;
+    
     display: flex;
     justify-content: center;
 }
 
 .caixafoto {    
     justify-self: center;
+    padding-top: 20px;
 }
 
 .foto {
     align-items: center;
-    border: 12px solid rebeccapurple;
+    border: 6px solid aliceblue;
     border-radius: 50%;
     width: 145px;
     height: 145px;
+    box-shadow: 20px solid black;
 }
 
 .apresentacao {
-    border: 3px solid red;
+    border: 3px  red;
     display: flex;    
     justify-content: center;
     align-items: center;
 }
 
 .aside {
-    display: block;
-    border: 8px solid blue;    
-    justify-self: first center;
+    display: block;    
+    border: 8px blue;    
+    justify-self: center;
+}
+.aside h3 {
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .habil {
-    border: 6px solid orange;
-    color: red;
+    margin-top: 1px;
+    padding-top: 1px;
+    margin-bottom: 50px;
+    border: 6px orange;
     display: block;
 }
 
 
 /* SECTION - Estilos da Seção Sobre*/
 .projeto {
-    display: flex;
-    width: 1335px;
-    background-color: aliceblue;
-    justify-self: center;
-    justify-content: center;
+    height: 180px;
     align-items: center;
-    border: 8px red;
-    column-count: 2;
+    justify-content: center;
+    padding-top: 60px;
+    background-color: aliceblue;
+    border: 4px red;
+    align-items: center;
+    justify-content: center;
 }
-
 .projetos {
     display: flex;
+    text-transform: uppercase;
     justify-content: center;
     align-items: center;
-    border: 6px solid gold;
+    border: 6px gold;
     column-count: 2;
 }
 
 .portfolio{
-    display: flex;
-    justify-items: center;
+    display: block;
     justify-content: center;
     align-items: center;
-    border: 5px solid burlywood;
-    column-count: 2;
+    
 }
 
 .portfolio h3 {
-    border: 3px solid blue;
-    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px blue;
+    color: black;
     text-transform: uppercase;
-    padding-left: 8px;
+    padding-left: 3px;
     padding-right: 8px;
     margin: 8px;
 }
 
 .portfolio p {
-    border: 3px solid green;
-    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px  green;
+    color: black;
     padding-left: 8px;
     padding-right: 8px;
     margin: 8px;
@@ -167,27 +195,29 @@ ul {
     align-items: center;
     border: 6px red;
     padding: 5px;
+    padding-bottom: 50px;
     
 }
 
 .habi2 {
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(204, 84, 168);
-    border: 5px solid blue;
+    font-size: 30px;
+    color: black;
+    border: 5px black;
     text-transform: uppercase;
     padding-left: 490px;
 }
 
 .tabela {
     margin: 0 auto; /* Centraliza a tabela */
-    background-color: aquamarine;
-    border: 2px solid green;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid ;
     border-collapse: collapse;
 }
 
 .cabeca {
-    background-color: lightgreen;
+    background-color: aliceblue;
 }
 
 th {
@@ -195,12 +225,13 @@ th {
 }
 
 th, td {
-    border: 1px solid blue;
+    border: 1px solid black;
     padding: 8px;
     text-align: center;
 }
 
 footer{
+    padding-top: 20px;
     background-color: aliceblue;
 }
 

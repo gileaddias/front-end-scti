@@ -115,10 +115,12 @@ ul {
 /* SECTION - Estilos da Seção Sobre*/
 .projeto {
     display: flex;
+    width: 1335px;
+    background-color: aliceblue;
     justify-self: center;
     justify-content: center;
     align-items: center;
-    border: 8px solid rgb(221, 221, 98);
+    border: 8px red;
     column-count: 2;
 }
 
@@ -126,7 +128,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 6px solid goldenrod;
+    border: 6px solid gold;
     column-count: 2;
 }
 
@@ -160,44 +162,79 @@ ul {
 /* SECTION - Estilos da Seção Habilidade*/
 .habilidade {
     display: block;
+    background-color: white;
     justify-content: center;
     align-items: center;
-    border: 6px solid red;
+    border: 6px red;
     padding: 5px;
-    margin: 5px;
+    
 }
 
-.habi2 {justify-content: center;
-    align-items: center;
+.habi2 {
+    display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: red;
+    color: rgb(204, 84, 168);
+    border: 5px solid blue;
     text-transform: uppercase;
+    padding-left: 490px;
 }
 
 .tabela {
-    display: block;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto; /* Centraliza a tabela */
     background-color: aquamarine;
     border: 2px solid green;
+    border-collapse: collapse;
 }
 
 .cabeca {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid blue;
-    margin: 8px;
-    padding: 8px;
+    background-color: lightgreen;
 }
 
+th {
+    text-transform: uppercase;
+}
 
 th, td {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    margin: 18px;
+    border: 1px solid blue;
     padding: 8px;
+    text-align: center;
 }
 
+footer{
+    background-color: aliceblue;
+}
+
+footer p {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    display: block;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 500px;
+    padding-bottom: 50px;
+    border: 2px red;
+}
+
+label, input, select,textarea, option {
+    
+    margin: 3px 3px 3px 3px;
+}
+
+.mensagem {
+    width: 80px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end; /* topo */
+    align-items: flex-end;
+}
